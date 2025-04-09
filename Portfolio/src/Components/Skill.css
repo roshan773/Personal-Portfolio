@@ -1,0 +1,109 @@
+.skill{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.html{
+    color: #E5532C;
+    transition: all 0.3s ease-in-out;
+}
+
+.html:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.css{
+    color: #2D53E5;
+    transition: all 0.3s ease-in-out;
+}
+
+.css:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.bootstrap{
+    color: #7618F6;
+    transition: all 0.3s ease-in-out;
+}
+
+.bootstrap:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.jquery{
+    color: #1e4263;
+    transition: all 0.3s ease-in-out;
+}
+
+.jquery:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.sass{
+    color: #CE6B9C;
+    transition: all 0.3s ease-in-out;
+}
+
+.sass:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.js{
+    color: #F0DC55;
+    transition: all 0.3s ease-in-out;
+}
+
+.js:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.react{
+    color: #08DDFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.react:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.canva {
+    color: #08C6CE;
+    transition: all 0.3s ease-in-out;
+}
+
+.canva:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.github{
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.github:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
