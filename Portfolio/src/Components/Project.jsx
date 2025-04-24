@@ -101,7 +101,7 @@ const Project = () => {
                 <p className='card-info'>Here i have work with the startup who sell very intersting things as short invitation of wedding stuff.</p>
                 <p><strong>Tech Stack: </strong>Html, css, Bootstrap</p>
                 <div className="btn-group w-100 mt-3">
-                  <a href="https://wedgramdesign.netlify.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
+                  <a href="https://wedgramdesigns.vercel.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
                   <a href="https://github.com/roshan773/Wedgramdesigns" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
                 </div>
               </div>

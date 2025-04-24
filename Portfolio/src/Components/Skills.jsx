@@ -4,6 +4,8 @@ import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaSass } from 'reac
 import { DiJqueryLogo } from 'react-icons/di'
 import { IoLogoJavascript } from 'react-icons/io'
 import { SiCanva, SiRedux } from 'react-icons/si'
+import { IoLogoFirebase } from "react-icons/io5";
+import { RiRobot2Line } from 'react-icons/ri'
 
 const Skills = () => {
   return (
@@ -67,6 +69,18 @@ const Skills = () => {
             <div className='github'>
               <FaGithub size={300} className=' p-4 img-fluid ' />
               <p className='mt-2 fs-4 text-center text fw-bold text-dark'>GITHUB</p>
+            </div>
+          </div>
+          <div className='col-12 col-sm-6 col-md-4 col-lg-2 mt-4 d-flex justify-content-center align-items-center'>
+            <div className='firebase'>
+              <IoLogoFirebase size={300} className=' p-4 img-fluid ' />
+              <p className='mt-2 fs-4 text-center text fw-bold text-dark'>FIREBASE</p>
+            </div>
+          </div>
+          <div className='col-12 col-sm-6 col-md-4 col-lg-2 mt-4 d-flex justify-content-center align-items-center'>
+            <div className='Propmt' id='icon'>
+              <RiRobot2Line size={300} className=' p-4 img-fluid ' />
+              <p className='mt-2 fs-4 text-center text fw-bold text-dark'>FIREBASE</p>
             </div>
           </div>
         </div>

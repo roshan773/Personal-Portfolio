@@ -36,7 +36,9 @@ const Testimonial = () => {
         <p className='text-muted fs-5 pb-4'>"Hear what our clients say about us!"</p>
 
         {loading ? (
-          <p className="text-center">Loading testimonials...</p>
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
         ) : (
           <div className='row'>
             <Swiper
@@ -49,7 +51,7 @@ const Testimonial = () => {
                 768: { slidesPerView: 2 },
                 1024: { slidesPerView: 2 },
               }}
-              style={{paddingBottom: "40px"}}
+              style={{ paddingBottom: "40px", margin: "0 auto" }}
             >
               {user.map((user) => (
                 <SwiperSlide key={user.id}>

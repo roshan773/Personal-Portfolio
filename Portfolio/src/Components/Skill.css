@@ -1,4 +1,4 @@
-.skill{
+.skill {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -8,79 +8,86 @@
     margin-bottom: 50px;
 }
 
+#icon:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
 
-.html{
+
+.html {
     color: #E5532C;
     transition: all 0.3s ease-in-out;
 }
 
-.html:hover{
+.html:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
 }
 
-.css{
+.css {
     color: #2D53E5;
     transition: all 0.3s ease-in-out;
 }
 
-.css:hover{
+.css:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
 }
 
-.bootstrap{
+.bootstrap {
     color: #7618F6;
     transition: all 0.3s ease-in-out;
 }
 
-.bootstrap:hover{
+.bootstrap:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
 }
 
-.jquery{
+.jquery {
     color: #1e4263;
     transition: all 0.3s ease-in-out;
 }
 
-.jquery:hover{
+.jquery:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
 }
 
-.sass{
+.sass {
     color: #CE6B9C;
     transition: all 0.3s ease-in-out;
 }
 
-.sass:hover{
+.sass:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
 }
 
-.js{
+.js {
     color: #F0DC55;
     transition: all 0.3s ease-in-out;
 }
 
-.js:hover{
+.js:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
 }
 
-.react{
+.react {
     color: #08DDFF;
     transition: all 0.3s ease-in-out;
 }
 
-.react:hover{
+.react:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
@@ -97,12 +104,23 @@
     transform: translateY(-10px);
 }
 
-.github{
+.github {
     color: #000000;
     transition: all 0.3s ease-in-out;
 }
 
-.github:hover{
+.github:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.firebase {
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+.firebase:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);

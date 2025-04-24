@@ -11,9 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Testimonial from './Components/Testimonial'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [loading, setloading] = useState(false)
 
-  return (
+  return loading === true ? (
+    <h1>Loading...</h1>
+  ) : (
     <>
       <Navigation />
       <section id="home"><Home /></section>
