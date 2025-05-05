@@ -17,7 +17,7 @@ const Testimonial = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("https://67d57c67d2c7857431f08c23.mockapi.io/user/use-data")
+    axios.get("http://localhost:3000/testimonials")
       .then((res) => {
         console.log(res.data); // Check API response
         setUser(res.data);

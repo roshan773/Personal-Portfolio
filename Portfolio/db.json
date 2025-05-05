@@ -1,0 +1,16 @@
+{
+  "testimonials": [
+    {
+      "name": "Logo Lab Technology",
+      "message": "Working with Roshan on our Logo Lab Technology website was an excellent experience. He created a sleek, professional, and fully responsive site that exceeded our expectations. His creativity, technical skills, and dedication made the entire process smooth and efficient. Highly recommended for quality web development! 🚀",
+      "avatar": "https://logolabtechnology.netlify.app/images/logo.jpeg",
+      "id": "1"
+    },
+    {
+      "name": "Wegram Designs",
+      "message": "Working with Roshan on our Wedgram Designs website was a fantastic experience. He delivered a visually stunning, user-friendly, and highly responsive site that perfectly represents our brand. His professionalism, creativity, and attention to detail made the process seamless. Highly recommended!",
+      "avatar": "https://wedgramdesigns.vercel.app/Image/logo.jpeg",
+      "id": "2"
+    }
+  ]
+}
