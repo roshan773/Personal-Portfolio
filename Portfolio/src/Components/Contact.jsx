@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
 import "./Contact.css";
 
+const initialstate = {
+  name: '',
+  email: '',
+  inquiryType: '',
+  message: ''
+}
+
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    inquiryType: '',
-    message: '',
-  });
+  const [formData, setFormData] = useState({initialstate});
 
   // Handle input changes
   const handleChange = (e) => {
@@ -20,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_vdui04z',  
+      'service_vdui04z',
       'template_5vq7i26',
       {
         name: formData.name,
@@ -29,12 +32,13 @@ const Contact = () => {
         message: formData.message,
         time: new Date().toLocaleString(),
       },
-      'djaZ9vE6V6xJJ6NZc' 
+      'djaZ9vE6V6xJJ6NZc'
     ).then(
       (response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert("Message sent successfully!");
-        setFormData({ name: '', email: '', inquiryType: '', message: '' });
+        // alert("Message sent successfully!");
+        toast.success("Message sent successfully!")
+        setFormData(initialstate);
       },
       (error) => {
         console.log('FAILED...', error);
@@ -116,6 +120,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
