@@ -1,8 +1,8 @@
-.nav-links{
+.nav-links {
     color: black;
 }
 
-.nav-links::after{
+.nav-links::after {
     content: "";
     display: block;
     top: 0%;
@@ -14,6 +14,10 @@
     transition: all 0.3s ease-in-out;
 }
 
-.nav-links:hover::after{
+.nav-links:hover::after {
     width: 100%;
+}
+
+.dropdown-menu.show {
+    width: 100% !important;
 }
