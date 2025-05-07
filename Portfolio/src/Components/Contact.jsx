@@ -56,7 +56,7 @@ const Contact = () => {
         </p>
         <div className='row form-row'>
           <div className='d-flex justify-content-center align-items-center'>
-            <form onSubmit={handleSubmit} className='w-100'>
+            <form onSubmit={handleSubmit} className='w-75'>
               <div className='form-floating mb-3'>
                 <input
                   type="text"
@@ -112,7 +112,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className='d-flex justify-content-center align-items-center'>
-                <button type="submit" className="btn btn-dark text-center fw-bold fs-5">
+                <button type="submit" className="btn btn-dark text-center w-50">
                   LET’S CONNECT
                 </button>
               </div>

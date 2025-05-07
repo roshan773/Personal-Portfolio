@@ -1,4 +1,4 @@
-.testimonial{
+.testimonial {
     width: 100%;
     min-height: 100vh;
     background-color: #f0f0f0;
@@ -17,4 +17,15 @@
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
+}
+
+.swiper-slide {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+    opacity: 1 !important;
+    transform: scale(1.05);
+    z-index: 1;
 }
