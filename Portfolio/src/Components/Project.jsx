@@ -10,6 +10,57 @@ const Project = () => {
           A showcase of my work, where ideas transform into functional and impactful digital solutions.
         </p>
         <div className='row'>
+          <h3 className="fw-bold text-uppercase">💻 Freelance Projects</h3>
+          <div className='col-12 col-sm-12 col-md-6 col-lg-4 h-100' style={{ height: "450px" }}>
+            {/* card5 */}
+            <div className='project-card bg-transparent'>
+              <img src="/Logo lab technology.png" alt="" className='img-fluid img-top' />
+              <div className='card-body'>
+                <h5 className='fs-4 text-uppercase fw-bold'>Logo lab Technology</h5>
+                <p className='card-info'>Here i have work for the startup company who sell intersting thing like logo, banner etc</p>
+                <p><strong>Tech Stack: </strong>Html, css, Bootstrap, three.js</p>
+                <div className="btn-group w-100 mt-3">
+                  <a href="https://logolabtechnology.netlify.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
+                  <a href="https://github.com/roshan773/logolabtechnology" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='col-12 col-sm-12 col-md-6 col-lg-4 h-100' style={{ height: "450px" }}>
+            {/* card6 */}
+            <div className='project-card bg-transparent'>
+              <img src="/wedgram designs.png" alt="" className='img-fluid img-top' />
+              <div className='card-body'>
+                <h5 className='fs-4 text-uppercase fw-bold'>Wedgram designs</h5>
+                <p className='card-info'>Here i have work with the startup who sell very intersting things as short invitation of wedding stuff.</p>
+                <p><strong>Tech Stack: </strong>Html, css, Bootstrap</p>
+                <div className="btn-group w-100 mt-3">
+                  <a href="https://wedgramdesigns.vercel.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
+                  <a href="https://github.com/roshan773/Wedgramdesigns" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='col-12 col-sm-12 col-md-6 col-lg-4 h-100' style={{ height: "450px" }}>
+            {/* card - Graphic Designer */}
+            <div className='project-card bg-transparent'>
+              <img src="/Personal portfolio.png" alt="Graphic Designer Website Screenshot" className='img-fluid img-top' />
+              <div className='card-body'>
+                <h5 className='fs-4 text-uppercase fw-bold'>Graphic Designer Website</h5>
+                <p className='card-info'>
+                  Worked with a graphic designer to build a creative website for showcasing services like logo using modern and interactive elements.
+                </p>
+                <p><strong>Tech Stack:</strong> Html, css, bootstrap, three.js</p>
+                <div className="btn-group w-100">
+                  <a href="https://your-live-demo-link.com" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
+                  <a href="https://github.com/roshan773/GraphicDesignerProject" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <h3 className="fw-bold">🔁 Clone Projects</h3>
           <div className='col-12 col-sm-12 col-md-6 col-lg-4'>
             {/* card1 */}
@@ -70,57 +121,6 @@ const Project = () => {
                 <div className="btn-group w-100 mt-3">
                   <a href="https://fetchhive.netlify.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
                   <a href="https://github.com/roshan773/api-store" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <h3 className="fw-bold text-uppercase">💻 Real World Projects</h3>
-          <div className='col-12 col-sm-12 col-md-6 col-lg-4 h-100' style={{ height: "450px" }}>
-            {/* card5 */}
-            <div className='project-card bg-transparent'>
-              <img src="/Logo lab technology.png" alt="" className='img-fluid img-top' />
-              <div className='card-body'>
-                <h5 className='fs-4 text-uppercase fw-bold'>Logo lab Technology</h5>
-                <p className='card-info'>Here i have work for the startup company who sell intersting thing like logo, banner etc</p>
-                <p><strong>Tech Stack: </strong>Html, css, Bootstrap, three.js</p>
-                <div className="btn-group w-100 mt-3">
-                  <a href="https://logolabtechnology.netlify.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
-                  <a href="https://github.com/roshan773/logolabtechnology" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='col-12 col-sm-12 col-md-6 col-lg-4 h-100' style={{ height: "450px" }}>
-            {/* card6 */}
-            <div className='project-card bg-transparent'>
-              <img src="/wedgram designs.png" alt="" className='img-fluid img-top' />
-              <div className='card-body'>
-                <h5 className='fs-4 text-uppercase fw-bold'>Wedgram designs</h5>
-                <p className='card-info'>Here i have work with the startup who sell very intersting things as short invitation of wedding stuff.</p>
-                <p><strong>Tech Stack: </strong>Html, css, Bootstrap</p>
-                <div className="btn-group w-100 mt-3">
-                  <a href="https://wedgramdesigns.vercel.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
-                  <a href="https://github.com/roshan773/Wedgramdesigns" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='col-12 col-sm-12 col-md-6 col-lg-4 h-100' style={{ height: "450px" }}>
-            {/* card - Graphic Designer */}
-            <div className='project-card bg-transparent'>
-              <img src="/Personal portfolio.png" alt="Graphic Designer Website Screenshot" className='img-fluid img-top' />
-              <div className='card-body'>
-                <h5 className='fs-4 text-uppercase fw-bold'>Graphic Designer Website</h5>
-                <p className='card-info'>
-                  Worked with a graphic designer to build a creative website for showcasing services like logo using modern and interactive elements.
-                </p>
-                <p><strong>Tech Stack:</strong> Html, css, bootstrap, three.js</p>
-                <div className="btn-group w-100">
-                  <a href="https://your-live-demo-link.com" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
-                  <a href="https://github.com/roshan773/GraphicDesignerProject" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
                 </div>
               </div>
             </div>
