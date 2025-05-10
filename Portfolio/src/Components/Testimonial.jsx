@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-coverflow';
+import './Loader.css'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,7 +19,7 @@ const Testimonial = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/testimonials")
+    axios.get("https://personal-portfolio-db.onrender.com/testimonials")
       .then((res) => {
         console.log(res.data); // Check API response
         setUser(res.data);
@@ -65,7 +66,7 @@ const Testimonial = () => {
             >
               {user.map((user) => (
                 <SwiperSlide key={user.id}>
-                  <div className="slide container-fluid text-center">
+                  <div className="slide container-fluid">
                     <img
                       src={user.avatar}
                       alt={user.name}
