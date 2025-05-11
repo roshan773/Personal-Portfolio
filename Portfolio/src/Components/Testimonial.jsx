@@ -1,4 +1,4 @@
-import  { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-coverflow';
@@ -19,16 +19,18 @@ const Testimonial = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("https://personal-portfolio-db.onrender.com/testimonials")
-      .then((res) => {
-        console.log(res.data); // Check API response
+    const fetchData = async () => {
+      try {
+        const res = await axios.get("https://mockapi.io/projects/67d57c67d2c7857431f08c24");
         setUser(res.data);
-        setLoading(false);
-      })
-      .catch((err) => {
+      } catch (err) {
         console.log("Invalid API", err);
+      } finally {
         setLoading(false);
-      });
+      }
+    };
+
+    setTimeout(fetchData, 3000);
   }, []);
 
   return (
