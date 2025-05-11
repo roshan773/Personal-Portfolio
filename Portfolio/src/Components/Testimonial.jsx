@@ -21,7 +21,7 @@ const Testimonial = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("https://mockapi.io/projects/67d57c67d2c7857431f08c24");
+        const res = await axios.get("https://personal-portfolio-db.onrender.com/testimonials");
         setUser(res.data);
       } catch (err) {
         console.log("Invalid API", err);
